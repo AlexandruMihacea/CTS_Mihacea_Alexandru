@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class AngajatReader implements AplicantReader {
 
     @Override
-    public List<Aplicant> readAplicanti(String fileName) throws FileNotFoundException {
+    public List<Aplicant> readAplicants(String fileName) throws FileNotFoundException {
         Scanner input2 = new Scanner(new File(fileName));
         input2.useDelimiter(",");
         List<Aplicant> angajati = new ArrayList<Aplicant>();
